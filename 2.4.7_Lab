@@ -1,0 +1,8 @@
+John = 3
+Mary = 5
+Adam = 6
+# Created the variables above
+print(John, Mary, Adam, "", sep = ",", end = "\n")
+total_apples = John + Mary + Adam
+print(total_apples)
+print("John has:", John, "Apples,", "Mary has:", Mary, "Apples,", "Adam has:", Adam, "Apples,", "The total number of Apples is:", total_apples)
