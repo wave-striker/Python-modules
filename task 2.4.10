@@ -1,0 +1,26 @@
+#3x3 - 2x2 + 3x - 1
+
+#Hardcode x = 
+x = float(0)
+
+#code shoud read, 3 * x to the power of 3 etc..
+
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+
+print("y= ",y)
+
+#  when x = 1
+
+x=float(1)
+
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+
+print("y= ",y)
+
+# when x = -1
+
+x=float(-1)
+
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+
+print("y= ",y)
