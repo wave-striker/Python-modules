@@ -1,0 +1,6 @@
+#Create a user in put to place in the value required for x
+x = float(input("Enter value for x: "))
+# 1. denotes a float, / x + 1. (another float). working the equation down, creating the variable y to equal the sum of the quation.
+y = 1./(x + 1./(x + 1./(x + 1./x)))
+#Print the variable y to give you the answer.
+print("y =", y)
