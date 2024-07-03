@@ -1,0 +1,11 @@
+# Ask the user to enter a word
+user_word = input("Enter a word: ")
+
+# Convert the entered word to uppercase
+user_word = user_word.upper()
+
+# Iterate over each letter in the user's word
+for letter in user_word:
+    if letter in "AEIOU":  # Check if the letter is a vowel
+        continue  # Skip the rest of the loop and move to the next iteration
+    print(letter)  # Print the uneaten (non-vowel) letter on a separate line
