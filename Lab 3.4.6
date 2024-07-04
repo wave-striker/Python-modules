@@ -1,0 +1,17 @@
+hat_list = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
+
+# Step 1: write a line of code that prompts the user
+# to replace the middle number with an integer number entered by the user.
+
+new = int(input("Please enter an number: "))
+hat_list[2] = new # changes index 2 in the list to the users input.
+
+print(hat_list)
+# Step 2: write a line of code that removes the last element from the list.
+
+del(hat_list[-1])#del will delete an item with -1 stating the end of the list.
+print(hat_list)
+
+# Step 3: write a line of code that prints the length of the existing list.
+
+print("The lenght of your list is:", len(hat_list)) #len = length of your list.
